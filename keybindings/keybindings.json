@@ -51,5 +51,9 @@
 	{
 		"key": "alt+cmd+o",
 		"command": "workbench.action.gotoSymbol"
+	},
+	{
+		"key": "cmd+shift+o",
+		"command": "workbench.action.quickOpen"
 	}
 ]
