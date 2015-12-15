@@ -39,8 +39,17 @@
 		"when": "editorTextFocus"
 	},
 	{
+		"key": "cmd+b",
+		"command": "editor.action.goToDeclaration",
+		"when": "editorTextFocus"
+	},
+	{
 		"key": "cmd+l",
 		"command": "workbench.action.gotoLine",
 		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+cmd+o",
+		"command": "workbench.action.gotoSymbol"
 	}
 ]
