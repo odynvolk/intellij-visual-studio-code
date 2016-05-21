@@ -65,5 +65,13 @@
     "key": "shift+f6",
     "command": "editor.action.changeAll",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+1",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "workbench.view.debug"
   }
 ]
