@@ -74,5 +74,19 @@
   {
     "key": "ctrl+d",
     "command": "workbench.view.debug"
+  },
+    {
+    "key": "alt+f4",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.navigateForward",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus"
   }
 ]
