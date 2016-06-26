@@ -49,6 +49,16 @@
     "command": "editor.action.changeAll",
     "when": "editorTextFocus"
   },
+  {
+    "key": "cmd+w",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
 
   {
     "key": "cmd+'",
@@ -75,7 +85,7 @@
     "key": "ctrl+d",
     "command": "workbench.view.debug"
   },
-    {
+  {
     "key": "alt+f4",
     "command": "workbench.action.closeActiveEditor"
   },
