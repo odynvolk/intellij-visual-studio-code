@@ -1,10 +1,6 @@
 // Key bindings that are more online with IntelliJ
 [
   {
-    "key": "cmd+'",
-    "command": "workbench.action.splitEditor"
-  },
-  {
     "key": "cmd+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
@@ -44,6 +40,21 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+f6",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "cmd+'",
+    "command": "workbench.action.splitEditor"
+  },
+  {
     "key": "cmd+l",
     "command": "workbench.action.gotoLine",
     "when": "editorTextFocus"
@@ -55,16 +66,6 @@
   {
     "key": "cmd+shift+o",
     "command": "workbench.action.quickOpen"
-  },
-  {
-    "key": "alt+enter",
-    "command": "editor.action.quickFix",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+f6",
-    "command": "editor.action.changeAll",
-    "when": "editorTextFocus"
   },
   {
     "key": "shift+cmd+1",
