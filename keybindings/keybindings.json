@@ -1,10 +1,6 @@
 // Key bindings that are more online with IntelliJ
 [
   {
-    "key": "cmd+'",
-    "command": "workbench.action.splitEditor"
-  },
-  {
     "key": "cmd+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
@@ -44,6 +40,31 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+f6",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "cmd+'",
+    "command": "workbench.action.splitEditor"
+  },
+  {
     "key": "cmd+l",
     "command": "workbench.action.gotoLine",
     "when": "editorTextFocus"
@@ -57,21 +78,25 @@
     "command": "workbench.action.quickOpen"
   },
   {
-    "key": "alt+enter",
-    "command": "editor.action.quickFix",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+f6",
-    "command": "editor.action.changeAll",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "shift+cmd+1",
     "command": "workbench.view.explorer"
   },
   {
     "key": "ctrl+d",
     "command": "workbench.view.debug"
+  },
+  {
+    "key": "alt+f4",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.navigateForward",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus"
   }
 ]
