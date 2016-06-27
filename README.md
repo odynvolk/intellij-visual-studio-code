@@ -3,12 +3,7 @@ My (IntelliJ) key bindings for MS Visual Studio Code. I haven't used any of JetB
 
 # Usage
 1. Open user keybindings file.
-```
-File -> Preferences -> Keyboard shortcuts
-```
+```File -> Preferences -> Keyboard shortcuts```
 2. Copy text and paste.
-```
-( For Mac: copy keybindings/keybindings.json 
-           ->  ~/Library/Application\ Support/Code/User/keybindings.json )
-```
+  * For Mac: copy keybindings/keybindings.json to ``` ~/Library/Application\ Support/Code/User/keybindings.json```
 3. Good luck!!
