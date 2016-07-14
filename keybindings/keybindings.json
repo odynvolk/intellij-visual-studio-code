@@ -1,4 +1,4 @@
-// Key bindings that are more online with IntelliJ
+// Key bindings that are more inline with IntelliJ
 [
   {
     "key": "cmd+'",
@@ -73,5 +73,9 @@
   {
     "key": "ctrl+d",
     "command": "workbench.view.debug"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.replaceInFiles"
   }
 ]
