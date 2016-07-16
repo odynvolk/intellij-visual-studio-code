@@ -1,5 +1,9 @@
-// Key bindings that are more online with IntelliJ
+// Key bindings that are more inline with IntelliJ
 [
+  {
+    "key": "cmd+'",
+    "command": "workbench.action.splitEditor"
+  },
   {
     "key": "cmd+d",
     "command": "editor.action.copyLinesDownAction",
@@ -40,6 +44,19 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "cmd+l",
+    "command": "workbench.action.gotoLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "cmd+shift+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
     "key": "alt+enter",
     "command": "editor.action.quickFix",
     "when": "editorTextFocus"
@@ -59,24 +76,6 @@
     "command": "editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
   },
-
-  {
-    "key": "cmd+'",
-    "command": "workbench.action.splitEditor"
-  },
-  {
-    "key": "cmd+l",
-    "command": "workbench.action.gotoLine",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+cmd+o",
-    "command": "workbench.action.gotoSymbol"
-  },
-  {
-    "key": "cmd+shift+o",
-    "command": "workbench.action.quickOpen"
-  },
   {
     "key": "shift+cmd+1",
     "command": "workbench.view.explorer"
@@ -84,6 +83,10 @@
   {
     "key": "ctrl+d",
     "command": "workbench.view.debug"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.replaceInFiles"
   },
   {
     "key": "alt+f4",
