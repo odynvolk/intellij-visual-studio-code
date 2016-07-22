@@ -20,6 +20,14 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "alt+up",
+    "command": "editor.action.smartSelect.grow"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.smartSelect.shrink"
+  },
+  {
     "key": "cmd+r",
     "command": "editor.action.startFindReplaceAction"
   },
