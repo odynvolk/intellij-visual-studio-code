@@ -38,8 +38,13 @@
   },
   {
     "key": "cmd+-",
-    "command": "editor.action.commentLine",
-    "when": "editorTextFocus"
+    "command": "editor.fold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+=",
+    "command": "editor.unfold",
+    "when": "editorFocus"
   },
   {
     "key": "cmd+y",
@@ -85,6 +90,10 @@
   {
     "key": "shift+cmd+r",
     "command": "workbench.action.replaceInFiles"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "editor.action.addSelectionToNextFindMatch"
   },
   {
     "key": "shift+cmd+]",
