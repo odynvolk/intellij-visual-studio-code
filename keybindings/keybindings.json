@@ -114,5 +114,9 @@
     "key": "cmd+]",
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
+  },
+  { 
+    "key": "ctrl+v",          
+    "command": "workbench.view.git" 
   }
 ]
