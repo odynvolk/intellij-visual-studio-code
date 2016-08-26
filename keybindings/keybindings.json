@@ -38,8 +38,13 @@
   },
   {
     "key": "cmd+-",
-    "command": "editor.action.commentLine",
-    "when": "editorTextFocus"
+    "command": "editor.fold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+=",
+    "command": "editor.unfold",
+    "when": "editorFocus"
   },
   {
     "key": "cmd+y",
@@ -87,6 +92,10 @@
     "command": "workbench.action.replaceInFiles"
   },
   {
+    "key": "ctrl+g",
+    "command": "editor.action.addSelectionToNextFindMatch"
+  },
+  {
     "key": "shift+cmd+]",
     "command": "workbench.action.nextEditor",
     "when": "editorTextFocus"
@@ -105,5 +114,9 @@
     "key": "cmd+]",
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
+  },
+  { 
+    "key": "ctrl+v",          
+    "command": "workbench.view.git" 
   }
 ]
