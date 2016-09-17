@@ -105,5 +105,9 @@
     "key": "cmd+]",
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
+  },
+  { "key": "cmd+backspace",           
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus && !editorReadonly" 
   }
 ]
