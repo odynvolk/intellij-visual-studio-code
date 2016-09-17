@@ -109,5 +109,9 @@
   { "key": "cmd+backspace",           
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly" 
+  },
+  { "key": "shift+enter",             
+    "command": "editor.action.insertLineAfter",
+    "when": "editorTextFocus && !editorReadonly" 
   }
 ]
