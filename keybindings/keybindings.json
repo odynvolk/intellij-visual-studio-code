@@ -1,4 +1,4 @@
-// Key bindings that are more inline with IntelliJ
+Key bindings that are more inline with IntelliJ
 [
   {
     "key": "cmd+'",
@@ -26,6 +26,11 @@
   {
     "key": "alt+down",
     "command": "editor.action.smartSelect.shrink"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
   },
   {
     "key": "cmd+r",
@@ -106,12 +111,12 @@
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
   },
-  { "key": "cmd+backspace",           
+  { "key": "cmd+backspace",
     "command": "editor.action.deleteLines",
-    "when": "editorTextFocus && !editorReadonly" 
+    "when": "editorTextFocus && !editorReadonly"
   },
-  { "key": "shift+enter",             
+  { "key": "shift+enter",
     "command": "editor.action.insertLineAfter",
-    "when": "editorTextFocus && !editorReadonly" 
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
