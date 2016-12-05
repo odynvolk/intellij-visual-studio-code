@@ -10,12 +10,12 @@ Key bindings that are more inline with IntelliJ
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+down",
+    "key": "shift+alt+down",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+up",
+    "key": "shift+alt+up",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus"
   },
