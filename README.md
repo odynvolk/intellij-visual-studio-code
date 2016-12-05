@@ -1,5 +1,5 @@
 # intellij-visual-studio-code
-My (IntelliJ) key bindings for MS Visual Studio Code. I haven't used any of JetBrains other IDE:s but I'm guessing the bindings are the same for PhpStorm, PyCharm, RubyMine etc.
+My (IntelliJ Mac OS X 10.5+) key bindings for MS Visual Studio Code. I haven't used any of JetBrains other IDE:s but I'm guessing the bindings are the same for PhpStorm, PyCharm, RubyMine etc.
 
 # Usage
 1. Open user keybindings file.
