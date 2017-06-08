@@ -111,6 +111,10 @@
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
   },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.openRecent"
+  },
   { "key": "cmd+backspace",
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly"
