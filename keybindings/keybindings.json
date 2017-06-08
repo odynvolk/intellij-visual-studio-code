@@ -66,7 +66,7 @@
     "command": "workbench.action.gotoSymbol"
   },
   {
-    "key": "cmd+shift+o",
+    "key": "cmd+e",
     "command": "workbench.action.quickOpen"
   },
   {
@@ -110,10 +110,6 @@
     "key": "cmd+]",
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+e",
-    "command": "workbench.action.openRecent"
   },
   { "key": "cmd+backspace",
     "command": "editor.action.deleteLines",
