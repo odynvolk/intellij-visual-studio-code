@@ -1,8 +1,13 @@
-// Key bindings that are more inline with IntelliJ
+// Place your key bindings in this file to override the defaults
 [
   {
     "key": "cmd+'",
     "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "editorTextFocus"
   },
   {
     "key": "cmd+d",
@@ -62,11 +67,21 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "cmd+left",
+    "command": "cursorLineStart",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "cursorLineEnd",
+    "when": "editorTextFocus"
+  },
+  {
     "key": "alt+cmd+o",
     "command": "workbench.action.gotoSymbol"
   },
   {
-    "key": "cmd+e",
+    "key": "cmd+shift+o",
     "command": "workbench.action.quickOpen"
   },
   {
@@ -111,11 +126,13 @@
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
   },
-  { "key": "cmd+backspace",
+  {
+    "key": "cmd+backspace",
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly"
   },
-  { "key": "shift+enter",
+  {
+    "key": "shift+enter",
     "command": "editor.action.insertLineAfter",
     "when": "editorTextFocus && !editorReadonly"
   }

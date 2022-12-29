@@ -4,7 +4,7 @@ My (IntelliJ Mac OS X 10.5+) key bindings for MS Visual Studio Code. I haven't u
 # Usage
 1. Open user keybindings file.
 ```
-File -> Preferences -> Keyboard shortcuts
+File -> Preferences -> Keyboard shortcuts -> Open Keyboard Shortcuts (JSON)
 ```
 2. Copy text and paste.
 3. Good luck!!
